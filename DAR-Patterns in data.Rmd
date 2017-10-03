@@ -33,7 +33,7 @@ Our Research Question is:
 
 # Methods
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
-The methods I will be using to answer the question are a box plot, violin plot, and a t-test to reaffirm my results.
+The methods I will be using to answer the question are a box plot, violin plot, and a t-test to reaffirm my results. I will also be using the favstats code to show my numerical results
 
 
 # Results
