@@ -50,6 +50,7 @@ In the results I found the Skill players obviously were better and did much more
 ```{r}
 myex <- ggplot(pushups, aes(x=position, y=pushups))
 myex + geom_boxplot()
+myex + geom_violin()
 ```
 
 The plot reveals that the line players did less pushups than the skill players. The lowest skill players did more pushups than any of the line players.
