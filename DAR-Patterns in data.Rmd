@@ -38,14 +38,28 @@ The methods I will be using to answer the question are a box plot, violin plot, 
 
 # Results
 <!--You have both graphical and numerical methods, so you will have both graphical and numerical results to consider.!-->
+In the results I found the Skill players obviously were better and did much more pushups than the Line players. In the graphical data the box representing the Line players ends almost exactly where the Skill players box begins indicating the giant difference between the two.
 
 
 ## Graphical Results
 <!--Your graph should have a good title, and axes should be labled as needed.  Discuss your graphical results, showing how they answer the research question.  Use specific features of the graph in your discussion.!-->
 
+```{r}
+myex <- ggplot(pushups, aes(x=position, y=pushups))
+myex + geom_boxplot()
+myex + geom_violin()
+```
+
+The plot reveals that the line players did less pushups than the skill players. The lowest skill players did more pushups than any of the line players.
+
 
 ## Numerical Results
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(pushups~position, data=pushups)
+```
+The median of the Skill players is over three times bigger than the median of the line players. The Skill player’s first Quartile is triple the first quartile of the Line players, and the third is almost double. This indicates that the Skill players are able to do much more pushups.  
+
 
 
 # Inferential Results
