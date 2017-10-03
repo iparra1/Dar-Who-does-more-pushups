@@ -75,4 +75,4 @@ The p-value was so low that we conclude that we reject the null.
 
 # Discussion and Conclusion
 <!--State your overall conclusion.  This is also a good place to mention other Research Questions that came to mind as you were carrying out this study.!-->
-
+My ovreall conclusion is that Skill players are able to do a lot more pushups than Line players. Another question I had was, if the two groups would have any overlapping results. In other words, if the average number of pushups the Skill players did was close to the average number of pushups that the Line players could do. 
